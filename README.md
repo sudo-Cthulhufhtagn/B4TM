@@ -36,6 +36,8 @@ If p-value is <0.05, then:
 
   1. Do feature explanation indepentently for each predicted class, find regions which are important for whole dataset and identify genes there and check their funciotn.
 
+> Somebody play with crossval, feature selection, hyperparameter tuning to achieve higher accuracy performance.
+
 ## Methodology
 Linear model, random forest and xgboost will be utilized to fit both full data and selected regions, to test whether null hypothesis is valid. Following that, feature importance will be performed to identify regions which also affect improved accuracy on full data(if observed), and gene mappings should be performed to identify which genes might be affected and affecting the condition.
 
